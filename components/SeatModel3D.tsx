@@ -63,7 +63,7 @@ function RealSeat({ url, colors }: { url: string, colors: { base: string, espald
 
 export default function SeatModel3D({ colors }: { colors: { base: string, espaldar: string, cabezal: string } }) {
   return (
-    <Canvas camera={{ position: [2, 2, 3], fov: 45 }} gl={{ preserveDrawingBuffer: true, antialias: true }}>
+    <Canvas camera={{ position: [3, 2.5, 5], fov: 45 }} gl={{ preserveDrawingBuffer: true, antialias: true }}>
       <color attach="background" args={['#050505']} />
       <ambientLight intensity={0.5} />
       <spotLight position={[5, 5, 5]} angle={0.2} penumbra={1} intensity={2} castShadow />
