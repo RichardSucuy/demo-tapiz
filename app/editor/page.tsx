@@ -68,10 +68,10 @@ export default function Editor() {
           <button className="btn-icon" title="Ayuda"><HelpCircle size={16} /></button>
         </div>
         
-        <div style={{ background: 'rgba(212, 175, 55, 0.1)', padding: '12px', borderRadius: '8px', marginBottom: '16px', display: 'flex', gap: '8px', alignItems: 'center' }}>
+        {/* <div style={{ background: 'rgba(212, 175, 55, 0.1)', padding: '12px', borderRadius: '8px', marginBottom: '16px', display: 'flex', gap: '8px', alignItems: 'center' }}>
           <AlertTriangle size={18} color="var(--primary)" />
           <p style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>Usando Asiento Proxy 3D. Pega tu archivo `asiento.glb` en la carpeta `public` para usar el real.</p>
-        </div>
+        </div> */}
 
         <div className={styles['controls-panel']}>
           
