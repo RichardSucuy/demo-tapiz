@@ -5,8 +5,8 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Custom Seats | Premium Design Editor',
-  description: 'Design your own custom vehicle seats in real-time 3D.',
+  title: 'GRAND AUTOR EC | DISEÑOS DE TAPIZADOS PREMIUM',
+  description: 'Diseña tus propios asientos de vehículo personalizados en 3D en tiempo real.',
 };
 
 export default function RootLayout({
