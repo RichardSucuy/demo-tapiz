@@ -63,7 +63,7 @@ function RealSeat({ url, colors }: { url: string, colors: { base: string, espald
 
 export default function SeatModel3D({ colors }: { colors: { base: string, espaldar: string, cabezal: string } }) {
   return (
-    <Canvas camera={{ position: [3, 2.5, 7], fov: 45 }} gl={{ preserveDrawingBuffer: true, antialias: true }}>
+    <Canvas camera={{ position: [3, 2.5, 9], fov: 45 }} gl={{ preserveDrawingBuffer: true, antialias: true }}>
       <color attach="background" args={['#050505']} />
       <ambientLight intensity={0.5} />
       <spotLight position={[5, 5, 5]} angle={0.2} penumbra={1} intensity={2} castShadow />
@@ -75,7 +75,7 @@ export default function SeatModel3D({ colors }: { colors: { base: string, espald
 
       <ContactShadows resolution={1024} scale={10} blur={2} opacity={0.5} far={10} color="#000000" position={[0, -0.5, 0]} />
       <Environment preset="studio" />
-      <OrbitControls target={[0, 1, 0]} makeDefault minPolarAngle={0} maxPolarAngle={Math.PI / 1.5} enablePan={false} minDistance={1.5} maxDistance={6} />
+      <OrbitControls target={[0, 1.5, 0]} makeDefault minPolarAngle={0} maxPolarAngle={Math.PI / 1.5} enablePan={false} minDistance={1.5} maxDistance={6} />
     </Canvas>
   );
 }
